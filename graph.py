@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-	
+#Testing GitHub	
 class Graph(object):
 	""" Graph data structure, undirected by default. """
 
@@ -69,3 +69,8 @@ class Graph(object):
 	def shortestPath(self, fromVer, toVer):
 		if(len(self._graph) == 0):
 			return float(inf)
+			
+		self.get_vertexs(self)
+	
+	def testFunction():
+		return 0
